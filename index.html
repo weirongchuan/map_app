@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>地球半径查看</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <canvas id="globe"></canvas>
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.138.0/build/three.module.js",
+                "three/examples/jsm/controls/OrbitControls.js": "https://unpkg.com/three@0.138.0/examples/jsm/controls/OrbitControls.js",
+                "three/examples/jsm/loaders/FontLoader.js": "https://unpkg.com/three@0.138.0/examples/jsm/loaders/FontLoader.js",
+                "three/examples/jsm/geometries/TextGeometry.js": "https://unpkg.com/three@0.138.0/examples/jsm/geometries/TextGeometry.js",
+                "lil-gui": "https://cdn.jsdelivr.net/npm/lil-gui@0.19/+esm"
+            }
+        }
+    </script>
+    <script type="module" src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "name": "icbm-map",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "serve": "node scripts/server.mjs",
+    "start": "npm run build && npm run serve"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
