@@ -15,8 +15,8 @@
 运行环境要求：Git、Node.js 18+ 和现代浏览器。项目的本地构建及静态服务器不需要安装第三方 npm 依赖。
 
 ```bash
-git clone <仓库地址>
-cd icbm_map
+git clone git@github.com:weirongchuan/map_app.git
+cd map_app
 npm start
 ```
 
